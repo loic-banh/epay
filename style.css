@@ -1,0 +1,104 @@
+/* General page style */
+body {
+  font-family: sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1544364624-3a45b8f964d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Logo Img */
+.logo-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 150px;
+}
+
+/* Intro Container */
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 2rem 0 2rem;
+  margin: 3rem 0 6rem 0;
+}
+
+/* Heading */
+.intro-container h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: .6rem 0 .6rem 0;
+}
+
+/* Description */
+.intro-container p {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin: .6rem 0 1.2rem 0;
+}
+
+/* Profile Container */
+.profile-container {
+  width: 85%;
+  margin: 1.4rem auto 0 auto;
+  text-align: left;
+  padding: 0 2rem 0 2rem;
+}
+
+/* Profile Sections */
+.profile-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Profile Item Label */
+.profile-container ul li label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: .6rem 0 .6rem 0;
+  color: #5c5c5c;
+ }
+
+/* Profile Item Value */
+.profile-container ul li span {
+  font-style: italic;
+  font-weight: 600;
+  color: #333333;
+  margin: .6rem 0 .6rem 0;
+}
+
+/* CTAs Container */
+.ctas-container {
+  margin: 3rem auto 0 auto;
+  text-align: center;
+}
+
+/* Social Links */
+.ctas-container a {
+  text-decoration: none;
+  margin: .8rem 0 .8rem 0;
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: bold;
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  background: #fff;
+  border-radius: 500px;
+  border: 1px solid #d980a7;
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  font-weight: 600;
+}
+
+.ctas-container a:hover {
+  background: #fa86d9;
+  color: #fff;
+  transition: all 0.2s ease-in;
+  font-weight: 600;
+}

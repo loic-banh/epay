@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>ePay - Make Payment Great Again</title>
+    <link
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+      href="style.css"
+    />
+    <style>
+      <style>
+        body {
+          background-color: #acfefb;
+        }
+
+        .logo-section {
+          text-align: center;
+        }
+
+        .logo-section img  {
+          width: 35%;
+          padding: 10px 0 10px 0;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        a:hover {
+          color: #006871;
+          border-bottom: 2px solid #006871;
+        }
+
+        .banner-section {
+          display: flex;
+          flex-direction: row;
+          background-color: #006871;
+          justify-content: space-between;
+        }
+
+        .banner-section .banner-content {
+          padding-right: 8%;
+          padding-top: 8%;
+        }
+
+        .banner-content h1 {
+          font-size: 36px;
+          line-height: 40px;
+          font-weight: bold;
+          color: #FFFFFF;
+        }
+
+        .banner-content p {
+          font-size: 20px;
+          color: #FFFFFF;
+          padding-top: 10px;
+        }
+
+        .nav-bar-section {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin: 12px 10%;
+          border-bottom: 2px solid #acfefb;
+          text-align: center;
+        }
+
+        .nav-bar-section h2 {
+          margin: 0;
+          padding: 0;
+        }
+
+        .main-section {
+          display: flex;
+          flex-direction: column;
+          background-color: white;
+        }
+
+        .main-section-content {
+          padding: 0 10%;
+        }
+
+        .main-section-content h2 {
+          font-size: 32px;
+          font-weight: bold;
+          line-height: 45px;
+        }
+
+        .main-section-content p {
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+
+        .main-section-content .founder-section {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+        }
+
+        .founder-section .founder-article {
+          width: 25%;
+        }
+
+        .founder-section img {
+          width: 100%;
+        }
+
+        .founder-section .founder-bio {
+          padding-top: 20px;
+        }
+
+        .founder-bio p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        .manifest-section {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+
+        .manifest-section .manifest-article {
+          background-color: #acfefb;
+          width: 25%;
+          padding: 20px 0;
+          margin: 0 2.5%;
+        }
+
+        .manifest-section h3 {
+          font-size: 24px;
+          line-height: 33px;
+          font-weight: bold;
+        }
+
+        .manifest-section p {
+          font-size: 14px;
+          padding-bottom: 18px;
+        }
+
+        .investor-section {
+          display: flex;
+          flex-direction: row;
+        }
+
+        .investor-section .investor-article {
+          display: flex;
+          flex-direction: row;
+          background-color: #acfefb;
+          width: 25%;
+          padding: 20px 0;
+          margin: 0 2.5%;
+        }
+
+        .investor-article img {
+          width: 25%;
+        }
+
+        .investor-article p {
+          font-size: 14px;
+          padding-bottom: 20px;
+        }
+
+        .team-section {
+          display: flex;
+          flex-direction: row;
+        }
+
+        .team-section .team-article {
+          display: flex;
+          flex-direction: row;
+          background-color: #acfefb;
+          width: 25%;
+          padding: 20px 0;
+          margin: 0 2.5%;
+        }
+
+        .team-article img {
+          width: 25%;
+        }
+
+        .team-article p {
+          font-size: 14px;
+          padding-bottom: 20px;
+        }
+
+        .news-section {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          margin: 20px 0;
+        }
+
+        .news-section img {
+          width: 25%;
+          margin-right: 10px;
+        }
+
+        .news-section h3 {
+          font-size: 24px;
+          font-weight: bold;
+          line-height: 30px;
+        }
+
+        .news-section p {
+          font-size: 14px;
+          line-height: 20px;
+          margin-bottom: 20px;
+        }
+
+        .contact-section {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-top: 50px;
+        }
+
+        .contact-section .contact-form {
+          width: 40%;
+          padding-top: 30px;
+        }
+
+        .contact-form h2 {
+          font-size: 32px;
+          font-weight: bold;
+          line-height: 45px;
+        }
+
+        .contact-form p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        .map-section {
+          margin: 50px 10%;
+        }
+
+        .map-section img {
+          width: 100%;
+          margin-bottom: 50px;
+        }
+
+        .map-section p {
+          font-size: 14px;
+        }
+      </style>
+</head>
+<body>
+  <div class="logo-section">
+    <img src=images/epaylogo.png alt="ePay Logo" height="100px" width="auto">
+  </div>
+
+  <div class="banner-section">
+    <div>
+      <img
+        src=images/banniere.png
+        alt="ePay Banner"
+        height="100%"
+        width="100%"
+      />
+    </div>
+    <div class="banner-content">
+      <h1>ePay</h1>
+      <p>Make Payment Great Again</p>
+    </div>
+  </div>
+
+  <div class="nav-bar-section">
+    <h2><a href="#vision">Our Vision</a></h2>
+    <h2><a href="#mission">Our Mission</a></h2>
+    <h2><a href="#news">News & Updates</a></h2>
+    <h2><a href="#investors">Our Investors</a></h2>
+    <h2><a href="#team">Our Team</a></h2>
+    <h2><a href="#contact">Contact</a></h2>
+  </div>
+
+  <div class="main-section">
+    <div class="main-section-content">
+      <h2 id="vision">Our Vision</h2>
+      <p>
+        ePay is a technology startup founded in 2019. We are dedicated to
+        revolutionizing payment methods by offering a new contactless payment
+        system with facial recognition. ePay is a financial service startup that offers contactless payments through facial recognition technology. Our mission is to modernize the payment solutions
+      </p>
+
+      <h2 id="mission">Our Mission</h2>
+      <p>
+        Our mission is to provide a better and secure way for buyers and
+        sellers to exchange money. We strive to make paying for goods and
+        services quick, seamless and secure.
+      </p>
+
+      <div class="founder-section">
+        <div class="founder-article">
+          <img
+            src="images/profile.png"
+            alt="Loic Banh's Profile"
+            height="100%"
+            width="auto"
+          />
+        </div>
+        <div class="founder-bio">
+          <h3>Loïc Banh</h3>
+          <p>
+            Loïc is the Founder & CEO of ePay. <br />
+            His passion for innovative solutions drove him to set up this next
+            generation of contactless payment. He's proud of what his team and
+            he have achieved so far. 
+          </p>
+          <a href="https://loic-banh.github.io/my-profile/">Read Loïc's profile</a>
+        </div>
+      </div>
+
+      <div class="flex-container">
+          <div class="flex-item">
+            <h2> Our Team </h2>
+            <p> We have a passionate team of over 40 people from around the world. Our talented members are driven to succeed and create the best contactless payment solution on the market. It has quickly grown through its innovative contactless payment solution, and is now accepted in over 10 000 shops</p>
+            <h2> Our Investors </h2>
+            <p> We are proud to have some of the best investors such as Xavier Niel, Bernard Arnault and more, who back up and validate our technology. </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+   
+<div class="flex-typeform">
+  <h3> Interested to learn more?  
+    <a href="#typeform">Let's Chat</a> 
+ <h3>Location</h3>
+    <div class="mapContainer">
+      <iframe
+        src="https://maps.google.com/maps?q=Station%20F,%20Paris&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="100%"
+        height="250"
+        frameborder="0"
+        style="border:0"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+<div class="container-contact">
+  <form class="typeform" id="typeform" method="POST">
+    <h3> Get in Contact</h3>
+      <div class="name">
+        <label for="name">Name: </label>
+        <input type="text" name="name">
+      </div>
+      <div class="email">
+        <label for="email">Email: </label>
+        <input type="email" name="email">
+      </div>
+      <div class="subject">
+        <label for="subject">Subject: </label>
+        <input type="text" name="subject">
+      </div>
+      <div class="message">
+        <label for="message">Message: </label>
+        <textarea name="message" rows="5"></textarea>
+      </div>
+    <button type="submit">Send</button>
+  </form>
+</div>
+<section class="news-updates">
+      <h2 id="updates">News & Updates</h2>
+      <div class="new-update">
+        <p>Check out <a href="#">our blog</a> for the latest news and updates. We are constantly innovating to bring you the best payment experience possible.</p>
+      </div>
+      <div class="email-update">
+        <div class="update-form">
+          <h3>Subscribe to our mailing list</h3>
+          <p>Subscribe to our mailing list for the latest news and updates. We will send all the newest updates straight to your inbox.</p>
+          <form action="news-updates-form.php" method="post">
+            <div>
+              <label for="name">Name : </label>
+              <input type="text" name="name" placeholder="Name" required="required" />
+            </div>
+            <div>
+              <label for="email">eMail : </label>
+              <input type="email" name="email" placeholder="eMail" required="required" />
+            </div>
+            <input type="submit" value="Subscribe" />
+          </form>
+        </div>
+      </div>
+    </section>
+<div class="page__end">
+  <footer>
+    <div class="page__end-text">
+      <p>©ePay. All Rights Reserved | Terms of Service | Privacy</p>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>
